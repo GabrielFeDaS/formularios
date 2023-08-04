@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background: gray;
+    padding: 1em;
+    border-radius: 20px;
+}
+
+.cabecalho{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.cabecalho ul{
+    vertical-align: middle;
+    display: flex;
+    list-style-type: none;
+}
+
+.cabecalho ul li{
+    margin-right: 1em;
+}
+
+.cabecalho ul li:last-child{
+    margin-right: 0;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    font-size: 1.3em;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main {
+	width: 950px;
+	margin: 0 auto;
+	background: darkgray;
+	border-radius: 25px;
+	padding: 20px;
+}
+
+img{
+    width: 45%;
+    display: inline;
+    margin: 0 22px;
+    border-radius: 20px;
+}
+
+form h1 {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.fodase {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin: 0 350px;
+}
+
+form p {
+	margin: 30px 100px;
+	color: purple;
+}
+
+label{
+    margin: 0 90px;
+}
+
+input, textarea {
+	margin: 20px auto;
+	display: block;
+	width: 80%;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+button {
+	margin: 0 375px;
+	width: 20%;
+	padding: 5px;
+	border-radius: 10px;
+}

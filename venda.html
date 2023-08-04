@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<title>Venda</title>
+</head>
+<body>
+	<main>
+        <header>
+            <section class="cabecalho">
+                <a href="index.html">Início</a>
+                <ul>
+                    <li><a href="Cliente.html">Cliente</a></li>
+                	<li><a href="Produto.html">Produto</a></li>
+                	<li><a href="venda.html">Venda</a></li>
+                </ul>
+            </section>
+        </header>
+
+		<form action="https://api.sheetmonkey.io/form/ihArrGeZXQQcMN8WkWqLob" method="post">
+			<h1>Venda</h1>
+
+			<input type="text" name="Nome Vendedor" placeholder="Nome do Vendedor" required>
+			<input type="number" name="Cód. Venda" placeholder="Código da Venda" required>
+			<input type="number" name="Cód. Cliente" placeholder="Código do Cliente" required>
+			<input type="number" name="Cód. Produto" placeholder="Código do Produto" required>
+            <input type="number" name="Quantide" placeholder="Quantidade" required>
+			<input type="text" name="Valor Total" placeholder="Valor Total" required>
+
+			<button type="submit">Cadastrar</button>
+		</form>
+	</main>
+</body>
+</html>
